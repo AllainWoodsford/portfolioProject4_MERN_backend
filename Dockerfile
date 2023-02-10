@@ -3,10 +3,10 @@
 FROM node:12
 EXPOSE 80
 # Set the working directory in the container
-WORKDIR /app
+WORKDIR ./
 
 # Copy the application files into the working directory
-COPY . /app
+COPY . ./
 
 # Install the application dependencies
 RUN npm install
