@@ -14,4 +14,4 @@ ENV PORT 3001
 EXPOSE 8080
 EXPOSE 3001
 # Define the entry point for the container
-CMD ["npm", "start"]
+CMD ["node", "index.js"]
