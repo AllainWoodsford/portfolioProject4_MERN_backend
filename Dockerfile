@@ -11,7 +11,7 @@ RUN npm install
 
 ##PORTS
 ENV PORT 3001
-EXPOSE 8080
+
 EXPOSE 3001
 # Define the entry point for the container
 CMD ["node", "index.js"]
